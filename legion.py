@@ -14,14 +14,11 @@ def _pathAppend(aPath):
     """
     if os.path.isdir(aPath) and (aPath not in sys.path):
         sys.path.append(aPath)
-        print('Added',aPath)
         return True
     else:
-        print('Failed',aPath)
         return None
 
 if __name__ == '__main__':
     '''Append system paths for modules and libdir'''
     _pathAppend(os.path.join(sys.path[0],'modules'))
     _pathAppend(os.path.join(sys.path[0],'lib'))    
-    _pathAppend(os.path.join(sys.path[0],'modules'))
