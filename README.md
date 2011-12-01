@@ -24,7 +24,7 @@ I intend to tie this into multiple nodes using the ARM processor from the projec
              +---------------> Geth |
                              +------+
 
-Each "Geth" is to reside on a single ARM platform, int he case where the hardware progresses each "Geth" could be modified to implement its own thraded pool of workers, Gethlings ... yeh SOMEONE was going to say it,
+Each "Geth" is to reside on a single ARM platform, in the case where the hardware progresses each "Geth" could be modified to implement its own thraded pool of workers, Gethlings ... yeh SOMEONE was going to say it,
 so ner I got there first.
 
 As this is a project that I am working on from my own pocket and own time, (Amoungst everything else I have got going in my own time ...), all code will be based on Python 3.x, there is no intention to support older versions of python,
