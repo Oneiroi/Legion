@@ -10,7 +10,7 @@ def _pathAppend(aPath):
             aPath: complete directory path
         Returns:
             True on appended,
-            None on allready appended or dir does nto exist.
+            None on allready appended or dir does not exist.
     """
     if os.path.isdir(aPath) and (aPath not in sys.path):
         sys.path.append(aPath)
