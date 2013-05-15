@@ -3,11 +3,11 @@ Legion
 
 Greetings Shephard Commander ...
 
-About as geeky as you can get, yes I am making some serious mass effect references here, anyway the point of this is to leverage the power of python mutliprocessing lib, to provide grid / distributed computed.
+About as geeky as you can get, yes I am making some serious mass effect references here, anyway the point of this is to leverage the power of python mutliprocessing lib (more likely Gearman at this point), to provide grid / distributed computed.
 
 Initial implementations will be very simple, such as large logfile processing, ongoing additions may well include other functionaities, render farm processing etc.
 
-I intend to tie this into multiple nodes using the ARM processor from the project raspberrypi.org 
+I intend to tie this into multiple nodes using the ARM processor from the project raspberrypi.org  (fpga's have reported faster hashing speeds, looking at those too/ also have a reservation in for parallela but not waiting on that atm)
 
 
                              +------+
@@ -24,7 +24,7 @@ I intend to tie this into multiple nodes using the ARM processor from the projec
              +---------------> Geth |
                              +------+
 
-Each "Geth" is to reside on a single ARM platform, in the case where the hardware progresses each "Geth" could be modified to implement its own thraded pool of workers, Gethlings ... yeh SOMEONE was going to say it,
+Each "Geth" is to reside on a single ARM/FPGA platform, in the case where the hardware progresses each "Geth" could be modified to implement its own thraded pool of workers, Gethlings ... yeh SOMEONE was going to say it,
 so ner I got there first.
 
 As this is a project that I am working on from my own pocket and own time, (Amoungst everything else I have got going in my own time ...), all code will be based on Python 3.x, there is no intention to support older versions of python,
@@ -51,7 +51,7 @@ All sound files copyright their respective owners, sound files are used purely f
 Credits
 -------
 
-Legion sound files: http://social.bioware.com/forum/1/topic/103/index/1718758
+Legion sound files: http://social.bioware.com/forum/1/topic/103/index/1718758 copyright their respective authors / copyright holders, they are used for entertainment purposes only and thus 'fair use'.
 
 
 Contribute
